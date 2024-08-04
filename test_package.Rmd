@@ -1,0 +1,16 @@
+---
+title: "test_package"
+author: "Peter"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r}
+library(testpackage)
+```
+
+```{r}
+myfunc(1)
+myfunc2(1)
+```
+
